@@ -63,3 +63,60 @@ The scraper is fault-tolerant, batch-friendly, and suitable for real-world autom
 ```bash
 git clone https://github.com/your-username/amazon-product-data-scraper.git
 cd amazon-product-data-scraper
+
+
+### 2. Create virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+### 3. Install dependencies
+pip install -r requirements.txt
+playwright install
+
+### 4. Run scraper
+python -m src.main
+
+📊 Example Output
+ASIN	  Availability	Price	Rating	Total Ratings
+B0XXXX	In stock	      199    4.3	         1234
+B0YYYY	Not Available
+
+
+⚠️ Notes
+Run in batches (50–100 ASINs recommended)
+
+Avoid running multiple seller ASINs together
+
+Output Excel must be closed before execution
+
+Scraper uses delays to minimize blocking
+
+📈 Use Cases
+E-commerce price & availability monitoring
+
+Seller performance analysis
+
+Catalog health checks
+
+Market research automation
+
+Internal reporting dashboards
+
+
+🔐 Disclaimer
+This project is for educational and internal automation purposes.
+Users are responsible for complying with Amazon’s terms of service.
+
+
+---
+
+## 4️⃣ requirements.txt (VERY IMPORTANT)
+
+Create `requirements.txt` with:
+
+playwright
+pandas
+openpyxl
+
+
+
