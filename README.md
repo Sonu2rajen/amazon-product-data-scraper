@@ -138,3 +138,24 @@ openpyxl
 ### Project Structure
 ![Project Structure](screenshots/project_structure.png)
 
+## ✅Architecture Diagram
+```bash
+Excel (ASINs)
+      |
+      v
+ main.py
+      |
+      v
+ AmazonPage (Playwright)
+      |
+      v
+ Extractors
+ ├─ ASIN
+ ├─ Availability
+ ├─ Price
+ ├─ Ratings
+ └─ Star Rating
+      |
+      v
+ Excel Output
+```
