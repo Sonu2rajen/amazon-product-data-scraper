@@ -127,5 +127,14 @@ playwright
 pandas
 openpyxl
 
+## 📸 Screenshots
 
+### Terminal Execution
+![Terminal Run](screenshots/run_terminal.png)
+
+### Excel Output
+![Excel Output](screenshots/output_excel.png)
+
+### Project Structure
+![Project Structure](screenshots/project_structure.png)
 
