@@ -63,23 +63,32 @@ The scraper is fault-tolerant, batch-friendly, and suitable for real-world autom
 ```bash
 git clone https://github.com/your-username/amazon-product-data-scraper.git
 cd amazon-product-data-scraper
+```
 
 
 ### 2. Create virtual environment
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
 ### 3. Install dependencies
+```bash
 pip install -r requirements.txt
 playwright install
+```
 
 ### 4. Run scraper
+```bash
 python -m src.main
+```
 
 📊 Example Output
+```bash
 ASIN	  Availability	Price	Rating	Total Ratings
 B0XXXX	In stock	      199    4.3	         1234
 B0YYYY	Not Available
+```
 
 
 ⚠️ Notes
