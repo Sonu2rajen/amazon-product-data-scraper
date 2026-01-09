@@ -91,7 +91,7 @@ B0YYYY	Not Available
 ```
 
 
-⚠️ Notes
+## ⚠️ Notes
 Run in batches (50–100 ASINs recommended)
 
 Avoid running multiple seller ASINs together
@@ -100,7 +100,7 @@ Output Excel must be closed before execution
 
 Scraper uses delays to minimize blocking
 
-📈 Use Cases
+## 📈 Use Cases
 E-commerce price & availability monitoring
 
 Seller performance analysis
